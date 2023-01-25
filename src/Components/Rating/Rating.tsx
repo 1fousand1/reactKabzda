@@ -25,19 +25,9 @@ type StarPropsType = {
 }
 
 const Star = (props: StarPropsType) => {
-        if (props.selected = true) {
-                return (
-                    <span>
-                <b>Star</b>
-            </span>
-                );
-        } else {
-                return (
-                    <span>
-                Star
-            </span>
-                );
-        }
+    return <span>
+        {props.selected ? <b>start</b>}
+    </span>
 
 };
 
